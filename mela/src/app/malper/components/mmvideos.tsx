@@ -20,6 +20,8 @@ const videos = [
   { id: "4", title: "Uygulama: Alçıpan Asma Tavan", thumb: "/images/alcipan-tavan.svg", url: "/malper/isler" },
 ];
 
+
+
 export default function MmVideoGallery() {
   return (
     <section className="py-8 bg-zinc-950 text-white px-4 sm:px-6">
