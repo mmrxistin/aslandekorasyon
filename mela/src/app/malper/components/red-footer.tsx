@@ -13,7 +13,7 @@ export default function RedFooter() {
       <div className="pointer-events-none select-none px-4 pt-20">
         <div className="mx-auto max-w-[1600px] text-center">
           <span className="block bg-gradient-to-b from-white/10 to-transparent bg-clip-text text-[18vw] font-black uppercase leading-none tracking-tighter text-transparent">
-MEHMET KARAKUŞ
+ASLAN DEKORASYON
           </span>
         </div>
       </div>
@@ -22,11 +22,11 @@ MEHMET KARAKUŞ
         <div className="grid grid-cols-1 gap-12 border-t border-white/10 pt-12 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
-              <span className="grid h-9 w-9 place-items-center rounded-lg bg-[#ff4d00] text-sm font-black text-white">MK</span>
-              <span className="text-xl font-black uppercase">Mehmet<span className="text-[#ff4d00]">Karakuş</span></span>
+              <span className="grid h-9 w-9 place-items-center rounded-lg bg-[#ff4d00] text-sm font-black text-white">AD</span>
+              <span className="text-xl font-black uppercase">Aslan<span className="text-[#ff4d00]">Dekorasyon</span></span>
             </div>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/50">
-              Roman, öykü ve denemeleriyle sokağın sesini, hafızanın kırılganlığını ve sıradan insanın hikâyesini yazan bir yazar.
+              Alçı, boya ve inşaat işlerinde anahtar teslim çözümler. Ev, ofis ve işyerleri için tadilat, dekoratif sıva ve boya uygulamaları.
             </p>
           </div>
           <div>
@@ -49,7 +49,7 @@ MEHMET KARAKUŞ
               <li>{AGENCY.address}</li>
             </ul>
             <div className="mt-6 flex gap-3">
-              {["IG", "X", "GR", "YT"].map((s) => (
+              {["IG", "FB", "WA", "YT"].map((s) => (
                 <a
                   key={s}
                   href="#"
@@ -62,8 +62,8 @@ MEHMET KARAKUŞ
           </div>
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row">
-          <span>© {new Date().getFullYear()} Mehmet Karakuş — El Hamdu Lillah ile yazıldı.</span>
-          <span className="font-mono">41.0082° N, 28.9784° E — İstanbul</span>
+          <span>© {new Date().getFullYear()} Aslan Dekorasyon — Tüm hakları saklıdır.</span>
+          <span className="font-mono">Alçı · Boya · İnşaat · İstanbul</span>
         </div>
       </div>
     </footer>

@@ -33,10 +33,10 @@ export default function RedNavbar() {
           {/* LOGO */}
           <Link href="/malper" className="group flex items-center gap-2 no-underline">
             <span className="grid h-9 w-9 place-items-center rounded-lg bg-[#ff4d00] text-sm font-black text-white transition-transform group-hover:rotate-90">
-              MK
+              AD
             </span>
             <span className="text-lg font-black uppercase tracking-tight text-white">
-              Mehmet<span className="text-[#ff4d00]">Karakuş</span>
+              Aslan<span className="text-[#ff4d00]">Dekorasyon</span>
             </span>
           </Link>
 

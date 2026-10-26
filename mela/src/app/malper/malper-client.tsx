@@ -138,15 +138,16 @@ Tüm projeler <span className="inline-block transition-transform group-hover:tra
       {/* ======== MANIFESTO ======== */}
       <section className="px-4 py-32 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1100px] text-center">
-          <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Manifesto</p>
+          <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Sözümüz</p>
           <h2 className="text-3xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            “İyi metinler, dikkatle bakılan bir hayat ve
-            <span className="text-[#ff4d00]"> sabırlı bir masa</span> arasında yazılır.”
+            “İyi bir iş, sağlam bir zemin ve
+            <span className="text-[#ff4d00]"> temiz bir işçilikle</span> başlar.”
           </h2>
           <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-zinc-400">
-            Her kitap, uzun bir dinlemenin ürünüdür. Sokakta duyulan bir cümle,
-            defterin kenarına düşülmüş bir not, gece yarısı uyandıran bir soru —
-            hepsi bir gün sayfaya dönüşmek için bekler. Ben o bekleyişi yazıyorum.
+            Alçıdan boyaya, tavan detaylarından anahtar teslim tadilata kadar
+            her işi aynı özenle yapıyoruz. Keşiften teslime kadar takibi biz
+            üstleniyoruz; işin sonunda ortaya çıkan yüzey, yıllar boyunca
+            bozulmadan kalıyor.
           </p>
         </div>
       </section>
