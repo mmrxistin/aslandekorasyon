@@ -11,32 +11,32 @@ import React, { useEffect, useRef, useState } from "react";
 
 const mansetler = [
   {
-    title: "Sessizliğin Alfabesi: Sustuğumuz her an bir cümledir",
-    desc: "Yeni deneme kitabında yazar, susmanın bir tür konuşma olduğunu ve kelimelerin en çok yokluğunda anlam kazandığını anlatıyor.",
-    img: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=1200&q=80",
+    title: "Alçı Sıva & Korniş: Pürüzsüz duvarlar",
+    desc: "İç ve dış cephede alçı sıva, korniş ve tavan göbeği uygulamaları; astar ve zımpara sonrası boyaya hazır yüzey.",
+    img: "/images/alci-siva.svg",
     href: "/malper/hizmetler",
-    cat: "KİTAP",
+    cat: "ALÇI",
   },
   {
-    title: "Sokağın Hafızası: Bir şehrin bıraktığı izler",
-    desc: "Roman, göç eden insanların ardında bıraktığı boş evleri, yarım kalmış cümleleri ve şehrin unutmayan hafızasını anlatıyor.",
-    img: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200&q=80",
+    title: "İç Cephe Boya: Mekânın havasını değiştirin",
+    desc: "Dekoratif duvar boyama, silinebilir boya ve badana; mobilya korumalı, temiz çalışan boya ekibi.",
+    img: "/images/ic-cephe-boya.svg",
     href: "/malper/hizmetler",
-    cat: "ROMAN",
+    cat: "BOYA",
   },
   {
-    title: "Gece yarısı yazılan notlar: Günlükten sayfalar",
-    desc: "Yazarın defterinden seçilmiş kısa metinler; uykusuzluk, bekleyiş ve yazmanın sessiz telaşı üzerine.",
-    img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80",
+    title: "Anahtar Teslim Tadilat: Baştan sona yenileme",
+    desc: "Ev, ofis ve işyeri tadilatında yıkım, alçı, boya, zemin ve ince işler dahil tek elden anahtar teslim çözüm.",
+    img: "/images/tadilat.svg",
     href: "/malper/hizmetler",
-    cat: "DENEME",
+    cat: "TADİLAT",
   },
   {
-    title: "Kuşlar ve Kırık Saat: Zamanın kayboluşu",
-    desc: "Öykü kitabında her hikâye, durmuş bir saatin arkasında saklanan bir ömrü açığa çıkarıyor.",
-    img: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=1200&q=80",
+    title: "Alçıpan Asma Tavan: Modern tavan detayları",
+    desc: "Alçıpan asma tavan, gizli ışık kanalları ve bölme duvarlarla mekânlara yeni bir derinlik.",
+    img: "/images/alcipan-tavan.svg",
     href: "/malper/hizmetler",
-    cat: "ÖYKÜ",
+    cat: "ALÇIPAN",
   },
 ];
 

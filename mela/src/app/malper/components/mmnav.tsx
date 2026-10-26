@@ -18,12 +18,12 @@ import { useTheme } from 'next-themes';
 
 const NAV_LINKS = [
   { href: '/malper', label: 'Ana Sayfa' },
-  { href: '/malper#work', label: 'Kitaplar' },
-  { href: '/malper#services', label: 'Türler' },
-  { href: '/malper#culture', label: 'Manifesto' },
+  { href: '/malper#work', label: 'Projeler' },
+  { href: '/malper#services', label: 'Hizmetler' },
+  { href: '/malper#culture', label: 'Kurumsal' },
   { href: '/malper#news', label: 'Duyurular' },
-  { href: '/malper#careers', label: 'Atölye' },
-  { href: '/malper#contact', label: 'İletişim' },
+  { href: '/malper/kariyer', label: 'Referanslar' },
+  { href: '/malper/iletisim', label: 'İletişim' },
 ];
 
 
@@ -46,7 +46,7 @@ function Mmmnavbar() {
 
             <div className="flex min-w-[60px] items-center justify-start">
               <Link href="/malper" className="text-lg font-black uppercase tracking-tight text-zinc-900 dark:text-zinc-50">
-MEHMET <span className="text-[#ff4d00]">KARAKUŞ</span>
+ASLAN <span className="text-[#ff4d00]">DEKORASYON</span>
               </Link>
             </div>
 
@@ -92,7 +92,7 @@ MEHMET <span className="text-[#ff4d00]">KARAKUŞ</span>
               )}
 
               <a
-                href="/#contact"
+                href="/malper/iletisim"
                 className="hidden h-9 items-center rounded-full bg-[#ff4d00] px-5 text-xs font-black uppercase tracking-[0.14em] text-white no-underline transition-all hover:bg-zinc-900 sm:flex dark:hover:bg-white dark:hover:text-zinc-900"
               >
 İletişim

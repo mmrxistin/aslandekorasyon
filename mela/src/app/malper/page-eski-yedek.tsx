@@ -10,44 +10,44 @@ import Link from 'next/link'
 
 const CASES = [
   {
-    brand: 'Sessizliğin Alfabesi', title: 'Sustuğumuz her an bir cümledir', tag: 'Deneme',
-    img: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=900&q=80',
+    brand: 'Alçı Sıva & Korniş', title: 'Pürüzsüz duvarlar, kusursuz korniş', tag: 'Alçı',
+    img: '/images/alci-siva.svg',
   },
   {
-    brand: 'Sokağın Hafızası', title: 'Bir şehrin bıraktığı izler', tag: 'Roman',
-    img: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=900&q=80',
+    brand: 'İç Cephe Boya', title: 'Dekoratif duvar boyama ve badana', tag: 'Boya',
+    img: '/images/ic-cephe-boya.svg',
   },
   {
-    brand: 'Kuşlar ve Kırık Saat', title: 'Zamanın kayboluşu', tag: 'Öykü',
-    img: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=900&q=80',
+    brand: 'Anahtar Teslim Tadilat', title: 'Ev ve işyeri tadilatı', tag: 'Tadilat',
+    img: '/images/tadilat.svg',
   },
   {
-    brand: 'Babanın Defteri', title: 'Hafıza, yokluk ve hatırlama', tag: 'Mektup',
-    img: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=80',
+    brand: 'Alçıpan Tavan & Bölme', title: 'Asma tavan ve gizli ışık', tag: 'Alçıpan',
+    img: '/images/alcipan-tavan.svg',
   },
 ]
 
 const SERVICES = [
-  { n: '01', t: 'Roman', d: 'Uzun soluklu anlatılar; tek bir hayatın içinden bütün bir dünyayı görme denemesi.' },
-  { n: '02', t: 'Öykü', d: 'Kısa metnin imkânıyla, bir anın bütün ağırlığını taşıyan hikâyeler.' },
-  { n: '03', t: 'Deneme', d: 'Düşünmenin peşine düşen, gündelik olanın içinden geçen yazılar.' },
-  { n: '04', t: 'Mektup & Günlük', d: 'Yokluk, bekleyiş ve hafıza üzerine, birisine yazılmış samimi metinler.' },
-  { n: '05', t: 'Eleştiri', d: 'Kitapların arasında yürüyen, okuma ufkunu genişleten kritikler.' },
-  { n: '06', t: 'Atölye', d: 'Yazmaya yeni başlayanlarla metni kurmayı öğrenmenin atölyesi.' },
+  { n: '01', t: 'Alçı & Sıva İşleri', d: 'İç ve dış cephe sıva, alçı sıva, korniş, tavan göbekleri ve dekoratif alçı uygulamaları.' },
+  { n: '02', t: 'Boya & Badana', d: 'İç cephe ve dış cephe boyama, dekoratif duvar uygulamaları, silinebilir boya ve badana.' },
+  { n: '03', t: 'Alçıpan & Asma Tavan', d: 'Alçıpan bölme duvar, asma tavan, gizli aydınlatma kanalları ve ses yalıtımlı tavan çözümleri.' },
+  { n: '04', t: 'Tadilat & Renovasyon', d: 'Ev, ofis ve işyeri tadilatı; yıkım, yapım ve ince işler dahil anahtar teslim renovasyon.' },
+  { n: '05', t: 'İnşaat İşleri', d: 'Kaba yapı, duvar örme, şap, beton, kalıp ve ince inşaat işlerinde planlı uygulama.' },
+  { n: '06', t: 'Dekoratif Uygulamalar', d: 'Dekoratif sıva, beton görünüm, mikro beton ve özel efektli duvar uygulamaları.' },
 ]
 
 const NEWS = [
-  { cat: 'Yeni Kitap', date: 'Eylül 2026', title: 'Yeni deneme kitabı “Eşiğin Öte Yanı” raflarda', href: '#' },
-  { cat: 'Söyleşi', date: 'Ağustos 2026', title: 'Hafıza ve yazmak üzerine söyleşi yayınlandı', href: '#' },
-  { cat: 'Ödül', date: 'Temmuz 2026', title: 'Hikâye Ödülleri’nde jüri seçkisinde', href: '#' },
-  { cat: 'Atölye', date: 'Haziran 2026', title: 'Güz dönemi yazarlık atölyesi kayıtları açıldı', href: '#' },
+  { cat: 'Proje', date: 'Ekim 2026', title: 'Kadıköy’de anahtar teslim daire tadilatı tamamlandı', href: '#' },
+  { cat: 'Boya', date: 'Eylül 2026', title: 'Dekoratif duvar boyama uygulamalarına başlandı', href: '#' },
+  { cat: 'Alçı', date: 'Ağustos 2026', title: 'Alçıpan asma tavan ve gizli ışık projesi teslim edildi', href: '#' },
+  { cat: 'Duyuru', date: 'Temmuz 2026', title: 'Yeni sezon keşif ve fiyat teklifi randevuları açıldı', href: '#' },
 ]
 
 const STATS = [
-  { n: '12', l: 'Yayınlanmış Kitap' },
-  { n: '3', l: 'Ödül' },
-  { n: '24', l: 'Dilde Çeviri' },
-  { n: '18', l: 'Yıllık Yazı Emekçiliği' },
+  { n: '18', l: 'Yıllık Tecrübe' },
+  { n: '750+', l: 'Tamamlanan Proje' },
+  { n: '120+', l: 'Boya & Alçı İşi' },
+  { n: '%100', l: 'İşçilik Garantisi' },
 ]
 
 export default function AgencyPage() {
@@ -58,7 +58,7 @@ export default function AgencyPage() {
         <div
           className="absolute inset-0 opacity-40"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1800&q=80')",
+            backgroundImage: "url('/images/dis-cephe-boya.svg')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -66,28 +66,28 @@ export default function AgencyPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-zinc-950/20" />
         <div className="relative mx-auto w-full max-w-[1600px] px-4 py-24 sm:px-6 lg:px-8">
           <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">
-            Mehmet Karakuş — Yazar
+            Aslan Dekorasyon — Alçı · Boya · İnşaat
           </p>
           <h1 className="max-w-5xl text-5xl font-black uppercase leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
-            Fikirleri
-            <span className="block text-[#ff4d00]">etkiye</span>
-            dönüştürüyoruz
+            Mekânları
+            <span className="block text-[#ff4d00]">yeniden</span>
+            inşa ediyoruz
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-zinc-300">
-Roman, öykü ve denemelerle insanın ve şehrin hikâyesini kelimelere döküyorum.
+Alçı, boya ve inşaat işlerinde keşiften teslime kadar uçtan uca hizmet veriyoruz.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#work"
               className="rounded-full bg-[#ff4d00] px-8 py-4 text-xs font-black uppercase tracking-[0.16em] text-white no-underline transition-all hover:bg-white hover:text-zinc-950"
             >
-              İşlerimizi Görün
+              Projelerimizi Görün
             </a>
             <a
               href="#contact"
               className="rounded-full border border-white/40 px-8 py-4 text-xs font-black uppercase tracking-[0.16em] text-white no-underline transition-all hover:bg-white hover:text-zinc-950"
             >
-              Birlikte Çalışalım
+              Teklif Alın
             </a>
           </div>
         </div>
@@ -110,11 +110,11 @@ Roman, öykü ve denemelerle insanın ve şehrin hikâyesini kelimelere döküyo
         <div className="mx-auto max-w-[1600px]">
           <div className="mb-14 flex flex-wrap items-end justify-between gap-6">
             <div>
-              <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Seçili İşler</p>
-              <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">İşler</h2>
+              <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Öne Çıkan İşler</p>
+              <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">Projeler</h2>
             </div>
             <a href="#" className="group text-xs font-black uppercase tracking-[0.16em] text-zinc-900 no-underline dark:text-zinc-100">
-              Tüm Portföy <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+Tüm Projeler <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
             </a>
           </div>
 
@@ -150,7 +150,7 @@ Roman, öykü ve denemelerle insanın ve şehrin hikâyesini kelimelere döküyo
       <section id="services" className="bg-zinc-950 px-4 py-24 text-white sm:px-6 lg:px-8 dark:bg-zinc-900">
         <div className="mx-auto max-w-[1600px]">
           <div className="mb-14">
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Ne Yapıyoruz</p>
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Hizmetlerimiz</p>
             <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">Hizmetler</h2>
           </div>
           <div className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-zinc-800 sm:grid-cols-2 lg:grid-cols-3">
@@ -168,17 +168,18 @@ Roman, öykü ve denemelerle insanın ve şehrin hikâyesini kelimelere döküyo
       {/* CULTURE / MANIFESTO */}
       <section id="culture" className="bg-white px-4 py-24 sm:px-6 dark:bg-zinc-950 lg:px-8">
         <div className="mx-auto max-w-[1100px] text-center">
-          <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Kültürümüz</p>
+          <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Çalışma Anlayışımız</p>
           <h2 className="text-3xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            “Sözcükler, dikkatle bakılan bir hayatın ve
-            <span className="text-[#ff4d00]"> sabırlı bir masanın</span> arasında yazılır.”
+            “Kalıcı bir iş, sağlam bir zeminin ve
+            <span className="text-[#ff4d00]"> temiz bir işçiliğin</span> ürünüdür.”
           </h2>
           <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-            Farklı disiplinlerden, kültürlerden ve dillerden gelen ekiplerimiz; birbirinden öğrenerek,
-            deneyerek ve gülerek çalışır. Çünkü en iyi işler, en mutlu masalarda çıkar.
+            Alçı, boya ve inşaat ekiplerimiz aynı takvim içinde çalışır; işin her aşaması
+            bittikten sonra temizlenir ve bir sonraki aşamaya geçilir. Çünkü teslim günü,
+            işin en önemli günüdür.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            {['Çeşitlilik & Kapsayıcılık', 'Sürdürülebilirlik', 'Sürekli Öğrenme'].map((v) => (
+            {['Zamanında Teslim', 'Temiz Çalışma', 'Garantili İşçilik'].map((v) => (
               <div key={v} className="rounded-2xl border border-zinc-200 p-8 dark:border-zinc-800">
                 <h3 className="text-sm font-black uppercase tracking-[0.14em]">{v}</h3>
               </div>
@@ -223,9 +224,9 @@ Tüm Yazılar <span className="inline-block transition-transform group-hover:tra
       {/* CLIENTS ŞERİDİ */}
       <section className="border-y border-zinc-200 bg-white px-4 py-16 dark:border-zinc-800 dark:bg-zinc-950 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-8 text-center text-xs font-black uppercase tracking-[0.3em] text-zinc-400">Birlikte Yazdığım Yerler</p>
+          <p className="mb-8 text-center text-xs font-black uppercase tracking-[0.3em] text-zinc-400">Birlikte Çalıştığımız Müşteriler</p>
           <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-            {['EDEBİYAT DERGİSİ', 'KİTAP FUARI', 'YAYINEVİ SOHBETLERİ', 'KÜTÜPHANE GÜNLERİ', 'YAZAR DERNEĞİ', 'ATÖLYE'].map((b) => (
+            {['MÜTEAHHİTLER', 'SİTE YÖNETİMLERİ', 'OFİS & MAĞAZA', 'EMLAK DANIŞMANLARI', 'MİMARLAR', 'EV SAHİPLERİ'].map((b) => (
               <span key={b} className="text-xl font-black tracking-tight text-zinc-300 transition-colors hover:text-[#ff4d00] sm:text-2xl dark:text-zinc-700 dark:hover:text-[#ff4d00]">
                 {b}
               </span>
@@ -238,16 +239,16 @@ Tüm Yazılar <span className="inline-block transition-transform group-hover:tra
       <section id="careers" className="bg-[#ff4d00] px-4 py-24 text-white sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-[1600px] flex-col items-start justify-between gap-10 lg:flex-row lg:items-center">
           <div>
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-white/70">Kariyer</p>
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-white/70">Referanslar</p>
             <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">
-              Cesur fikirlerin<br />peşinden geliyor musun?
+              İşini bizimle<br />yapanlar ne diyor?
             </h2>
           </div>
           <a
             href="#contact"
             className="shrink-0 rounded-full bg-zinc-950 px-10 py-5 text-xs font-black uppercase tracking-[0.16em] text-white no-underline transition-transform hover:scale-105"
           >
-            Açık Pozisyonlar →
+Referansları Gör →
           </a>
         </div>
       </section>
@@ -257,14 +258,14 @@ Tüm Yazılar <span className="inline-block transition-transform group-hover:tra
         <div className="mx-auto max-w-[900px]">
           <h2 className="text-5xl font-black uppercase leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
             Bir sonraki<br />
-            <span className="text-[#ff4d00]">büyük fikir</span><br />
-            seninle başlasın
+            <span className="text-[#ff4d00]">projeniz</span><br />
+            burada başlasın
           </h2>
           <a
-            href="mailto:merhaba@mehmetkarakus.com"
+            href="mailto:info@aslandekorasyon.com"
             className="mt-12 inline-block rounded-full border border-white/40 px-10 py-5 text-xs font-black uppercase tracking-[0.16em] no-underline transition-all hover:bg-[#ff4d00] hover:border-[#ff4d00]"
           >
-            merhaba@mehmetkarakus.com
+            info@aslandekorasyon.com
           </a>
         </div>
       </section>

@@ -18,18 +18,18 @@ import React, { useState } from "react";
  */
 
 const sonDakika = [
-  { title: "Yeni deneme kitabı 'Eşiğin Öte Yanı' raflarda", href: "/malper/isler", cat: "KİTAP" },
-  { title: "Hafıza ve yazmak üzerine söyleşi yayınlandı", href: "/malper/isler", cat: "SÖYLEŞİ" },
-  { title: "Hikâye Ödülleri'nde jüri seçkisinde", href: "/malper/isler", cat: "ÖDÜL" },
-  { title: "Güz dönemi yazarlık atölyesi kayıtları açıldı", href: "/malper/isler", cat: "ATÖLYE" },
-  { title: "Kütüphane Günleri'nde imza ve söyleşi", href: "/malper/isler", cat: "ETKİNLİK" },
+  { title: "Kadıköy'de anahtar teslim daire tadilatı tamamlandı", href: "/malper/isler", cat: "PROJE" },
+  { title: "Dekoratif duvar boyama uygulamalarına başlandı", href: "/malper/isler", cat: "BOYA" },
+  { title: "Alçıpan asma tavan ve gizli ışık projesi teslim edildi", href: "/malper/isler", cat: "ALÇIPAN" },
+  { title: "Yeni sezon için keşif ve fiyat teklifi randevuları açıldı", href: "/malper/iletisim", cat: "DUYURU" },
+  { title: "Dış cephe boya ve mantolama işlerinde randevu", href: "/malper/iletisim", cat: "ETKİNLİK" },
 ];
 const yazarlar = [
-  { title: "Susmak da bir anlatma biçimidir", author: "Mehmet Karakuş", href: "/malper/isler" },
-  { title: "Bir şehir unutur mu?", author: "Mehmet Karakuş", href: "/malper/isler" },
-  { title: "İlk cümle üzerine notlar", author: "Mehmet Karakuş", href: "/malper/isler" },
-  { title: "Okumanın sessiz telaşı", author: "Mehmet Karakuş", href: "/malper/isler" },
-  { title: "Defterin kenarındaki üç satır", author: "Mehmet Karakuş", href: "/malper/isler" },
+  { title: "Alçı sıva öncesi yüzey nasıl hazırlanır?", author: "Aslan Dekorasyon", href: "/malper/hizmetler" },
+  { title: "Silinebilir boya mı, plastik boya mı?", author: "Aslan Dekorasyon", href: "/malper/hizmetler" },
+  { title: "Asma tavan için doğru yükseklik", author: "Aslan Dekorasyon", href: "/malper/hizmetler" },
+  { title: "Tadilat öncesi yapılacaklar listesi", author: "Aslan Dekorasyon", href: "/malper/hizmetler" },
+  { title: "Duvarda çatlak ve rutubet çözümü", author: "Aslan Dekorasyon", href: "/malper/hizmetler" },
 ];
 
 function useAutoIndex(length: number) {
@@ -109,7 +109,7 @@ export function YazarSlider() {
 
   return (
     <div className="mm-yazar-slider">
-      <div className="mm-slider-tag mm-slider-tag-dark">YAZAR NOTLARI</div>
+      <div className="mm-slider-tag mm-slider-tag-dark">UYGULAMA NOTLARI</div>
 
       <a href={item.href} className="mm-yazar-content" key={index}>
         <div className="mm-yazar-avatar">
@@ -137,11 +137,11 @@ function WeatherWidget() {
       </div>
       <div className="mm-weather-body">
         <div className="mm-weather-icon" aria-hidden="true">
-          📖
+          🧱
         </div>
         <div className="mm-weather-main">
           <div className="mm-weather-temp">“”</div>
-          <div className="mm-weather-meta">Kelimeler, sessizliğin çocuklarıdır.</div>
+          <div className="mm-weather-meta">Sağlam işçilik, yıllarca bozulmayan bir yüzeydir.</div>
         </div>
       </div>
     </div>

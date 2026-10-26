@@ -6,14 +6,14 @@ import React from "react";
 import Link from "next/link";
 import { AGENCY, NEWS, CLIENTS, STATS } from "../ajans-veri";
 
-export const metadata = { title: "Yazar" };
+export const metadata = { title: "Hakkımızda" };
 const TEAM = [
-  { name: "Roman", role: "Sokağın Hafızası · 2022", initials: "R" },
-  { name: "Öykü", role: "Kuşlar ve Kırık Saat · 2019", initials: "Ö" },
-  { name: "Deneme", role: "Sessizliğin Alfabesi · 2024", initials: "D" },
-  { name: "Mektup", role: "Babanın Defteri · 2016", initials: "M" },
+  { name: "Alçı Ekibi", role: "Sıva · Korniş · Dekoratif alçı", initials: "A" },
+  { name: "Boya Ekibi", role: "İç & dış cephe boyama", initials: "B" },
+  { name: "Alçıpan Ekibi", role: "Asma tavan & bölme", initials: "P" },
+  { name: "İnşaat Ekibi", role: "Kaba yapı & tadilat", initials: "İ" },
 ];
-const VALUES = ["Dinle", "Yavaş Yaz", "Dürüst Kal", "Tekrar Tekrar" ];
+const VALUES = ["Keşif", "Net Fiyat", "Zamanında Teslim", "Garantili İşçilik"];
 
 export default function HakkindaPage() {
   return (
@@ -21,13 +21,13 @@ export default function HakkindaPage() {
       {/* HERO */}
       <section className="border-b border-white/10 px-4 pb-20 pt-16 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Ben kimim</p>
+          <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Biz kimiz</p>
           <h1 className="text-6xl font-black uppercase tracking-tighter sm:text-8xl">{AGENCY.name}</h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-400">
-            Roman, öykü, deneme ve mektup türlerinde yazan bir yazarım.
-            Yıllardır sokağın sesini, hafızanın kırılganlığını ve sıradan
-            insanın hikâyesini kelimelere döküyorum; her kitap uzun bir
-            dinlemenin ürünü.
+            Alçı, boya ve inşaat işlerinde tamamlanmış yüzlerce proje.
+            Ev, ofis, mağaza ve site dairelerinde sıvadan boyaya, tavan
+            detaylarından anahtar teslim tadilata kadar bütün işleri tek
+            elden yürütüyoruz; işi teslim etmeden bırakmıyoruz.
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function HakkindaPage() {
       {/* VALUES */}
       <section className="border-y border-white/10 px-4 py-20 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-zinc-500">Yazı İlkelerim</p>
+          <p className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-zinc-500">Çalışma İlkelerimiz</p>
           <div className="grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-white/10 sm:grid-cols-2 lg:grid-cols-4">
             {VALUES.map((v, i) => (
               <div key={v} className="bg-zinc-950 p-10">
@@ -62,7 +62,7 @@ export default function HakkindaPage() {
       {/* TEAM */}
       <section className="px-4 py-20 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-zinc-500">Yazdığım Türler</p>
+          <p className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-zinc-500">Ekiplerimiz</p>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {TEAM.map((t) => (
               <div
@@ -83,7 +83,7 @@ export default function HakkindaPage() {
       {/* CLIENTS + NEWS */}
       <section className="border-t border-white/10 px-4 py-20 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-zinc-500">Birlikte Yazdığım Yerler</p>
+          <p className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-zinc-500">Birlikte Çalıştığımız Müşteriler</p>
           <div className="flex flex-wrap items-center gap-x-12 gap-y-6">
             {CLIENTS.map((b) => (
               <span key={b} className="text-xl font-black text-zinc-700 transition-colors hover:text-[#ff4d00] sm:text-2xl">
@@ -113,7 +113,7 @@ export default function HakkindaPage() {
       {/* CTA */}
       <section className="px-4 py-24 text-center sm:px-6 lg:px-10">
         <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">
-          Bir kahve içelim mi<span className="text-[#ff4d00">?</span>
+          Ücretsiz keşif için<span className="text-[#ff4d00]"> arayın</span>
         </h2>
         <Link
           href="/malper/iletisim"

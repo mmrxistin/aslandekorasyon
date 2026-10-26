@@ -3,8 +3,7 @@
 // Esselatu vesselamu ala rasulina Muhammedin .
 // La ilahe ill Allah Muhammeden Rasulullah
 import React from "react";
-import { AGENCY, STATS, CASES, SERVICES, CLIENTS } from "./ajans-veri";
-import { getSiteContent } from "@/lib/site-content";
+import { STATS, CASES, SERVICES, CLIENTS } from "./ajans-veri";
 import MalperClient from "./malper-client";
 
 export const dynamic = "force-dynamic";

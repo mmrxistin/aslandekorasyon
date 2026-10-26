@@ -12,7 +12,7 @@ import { redirect } from "next/navigation";
 
 const ADMIN_USERNAME = "MehmetKarakus";
 const ADMIN_PASSWORD = "mehmetkarakus";
-const ADMIN_DISPLAY_NAME = "Yazar Mehmet Karakuş";
+const ADMIN_DISPLAY_NAME = "Aslan Dekorasyon";
 
 // Yönetici hesabını oluşturur / günceller.
 // Yalnızca ADMIN_SETUP_TOKEN env değişkeni doğru girildiğinde çalışır.

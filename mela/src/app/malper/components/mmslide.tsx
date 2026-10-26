@@ -19,34 +19,34 @@ function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-        <Image src='https://cdn.webtekno.com/media/cache/content_detail_v2/article/23831/turkiye-deki-yazilim-sektorunu-buyutmek-icin-devletten-onemli-adim-1483725143.jpg'/>
+        <Image src='/images/alci-siva.svg' />
         <Carousel.Caption>
-          <h3>Sessizliğin Alfabesi</h3>
-          <p>Deneme · 2024</p>
+          <h3>Alçı Sıva & Korniş</h3>
+          <p>Alçı · İç cephe</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src='https://www.braintechnosys.com/blog/wp-content/uploads/2020/02/Here-are-top-reasons-Of-Android-App-Development-To-Different-Industries.jpg' />
+        <Image src='/images/ic-cephe-boya.svg' />
         <Carousel.Caption>
-          <h3>Sokağın Hafızası</h3>
-          <p>Roman · 2022</p>
+          <h3>İç Cephe Boya</h3>
+          <p>Boya · Dekoratif</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image  src='https://www.apple.com/newsroom/images/2024/06/ios-18-makes-iphone-more-personal-capable-and-intelligent-than-ever/article/Apple-WWDC24-iOS-18-iPhone-15-Pro-3-up-240610_big.jpg.medium.jpg'/>
+        <Image src='/images/tadilat.svg' />
         <Carousel.Caption>
-          <h3>Kuşlar ve Kırık Saat</h3>
-          <p>Öykü · 2019</p>
+          <h3>Anahtar Teslim Tadilat</h3>
+          <p>Tadilat · Renovasyon</p>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Image  src='https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg'/>
+        <Image src='/images/alcipan-tavan.svg' />
         <Carousel.Caption>
-          <h3>Babanın Defteri</h3>
+          <h3>Alçıpan Asma Tavan</h3>
           <p>
-        Mektup · 2016
+            Alçıpan · Asma tavan
           </p>
         </Carousel.Caption>
       </Carousel.Item>

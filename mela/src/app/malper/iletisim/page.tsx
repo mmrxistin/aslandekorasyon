@@ -24,10 +24,10 @@ export default function IletisimPage() {
       {/* HERO */}
       <section className="border-b border-white/10 px-4 pb-20 pt-16 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Yazışalım</p>
+          <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Bize ulaşın</p>
           <h1 className="text-6xl font-black uppercase tracking-tighter sm:text-8xl">İletişim</h1>
           <p className="mt-6 max-w-xl text-lg text-zinc-400">
-            Kitap, söyleşi, atölye ya da sadece bir merhaba — bir fincan kahve kadar yakınım. Formu doldurun, en kısa sürede dönerim.
+            Alçı, boya, tadilat veya inşaat işiniz için ücretsiz keşif ve fiyat teklifi alın. Formu doldurun, en kısa sürede dönüş yapalım.
           </p>
         </div>
       </section>
@@ -39,9 +39,9 @@ export default function IletisimPage() {
             {sent ? (
               <div className="rounded-3xl border border-[#ff4d00]/40 bg-[#ff4d00]/10 p-12 text-center">
                 <div className="text-5xl">🎉</div>
-                <h2 className="mt-6 text-2xl font-black">Mektubunuz ulaştı!</h2>
+                <h2 className="mt-6 text-2xl font-black">Talebiniz ulaştı!</h2>
                 <p className="mt-3 text-zinc-300">
-                  El Hamdu Lillah — en kısa sürede size dönüş yapacağım.
+                  En kısa sürede sizinle iletişime geçeceğiz.
                 </p>
               </div>
             ) : (
@@ -49,7 +49,7 @@ export default function IletisimPage() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <input
                     required
-                    placeholder="Adınız"
+                    placeholder="Adınız Soyadınız"
                     className={inputCls}
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -57,7 +57,7 @@ export default function IletisimPage() {
                   <input
                     required
                     type="email"
-                    placeholder="E-posta"
+                    placeholder="E-posta / Telefon"
                     className={inputCls}
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -69,14 +69,15 @@ export default function IletisimPage() {
                   onChange={(e) => setForm({ ...form, budget: e.target.value })}
                 >
                   <option value="" className="bg-zinc-950">Bir konu seçin</option>
-                  <option value="s" className="bg-zinc-950">Kitap & Söyleşi</option>
-                  <option value="m" className="bg-zinc-950">Atölye & Danışmanlık</option>
-                  <option value="l" className="bg-zinc-950">Diğer</option>
+                  <option value="s" className="bg-zinc-950">Alçı & Sıva</option>
+                  <option value="m" className="bg-zinc-950">Boya & Badana</option>
+                  <option value="t" className="bg-zinc-950">Alçıpan & Asma Tavan</option>
+                  <option value="l" className="bg-zinc-950">Tadilat & İnşaat</option>
                 </select>
                 <textarea
                   required
                   rows={6}
-                  placeholder="Bana bir şeyler yazın..."
+                  placeholder="İşiniz, metrekare ve adres bilgisini yazın..."
                   className={inputCls}
                   value={form.message}
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
@@ -85,7 +86,7 @@ export default function IletisimPage() {
                   type="submit"
                   className="mt-2 rounded-full bg-[#ff4d00] px-10 py-4 text-xs font-black uppercase tracking-[0.16em] text-white transition-all hover:bg-white hover:text-zinc-950"
                 >
-Mektubu gönder →
+Teklif isteyin →
                 </button>
               </form>
             )}
@@ -113,7 +114,7 @@ Mektubu gönder →
             <div>
               <h3 className="mb-4 text-xs font-black uppercase tracking-[0.25em] text-zinc-500">Sosyal</h3>
               <div className="flex gap-3">
-                {["Instagram", "X", "Goodreads", "YouTube"].map((s) => (
+                {["Instagram", "Facebook", "WhatsApp", "YouTube"].map((s) => (
                   <a
                     key={s}
                     href="#"

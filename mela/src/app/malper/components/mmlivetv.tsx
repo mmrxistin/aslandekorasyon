@@ -4,7 +4,7 @@
 // La ilahe ill Allah Muhammeden Rasulullah
 
 // Bismillahirahmanirrahim
-// Yazarın video kanalı — büyük oynatıcı + altında seçilebilir yayın listesi
+// Firma video kanalı — büyük oynatıcı + altında seçilebilir yayın listesi
 "use client";
 
 import React, { useState } from "react";
@@ -17,7 +17,7 @@ const YAYINLAR = [
   {
     id: "live",
     badge: "CANLI",
-    title: "Mehmet Karakuş — Canlı Söyleşi",
+    title: "Aslan Dekorasyon — Uygulama Videoları",
     sub: "Kesintisiz yayın akışı",
     src: "https://www.youtube.com/embed/fZondUOmR9k?autoplay=0",
     live: true,
@@ -26,7 +26,7 @@ const YAYINLAR = [
     id: "son-videolar",
     badge: "VİDEO",
     title: "Son Videolar",
-    sub: "Kanalın en yeni okuma ve söyleşileri",
+    sub: "Kanalın en yeni uygulama ve proje videoları",
     src: `https://www.youtube.com/embed/videoseries?list=${UPLOADS_PLAYLIST}`,
     live: false,
   },
@@ -34,7 +34,7 @@ const YAYINLAR = [
     id: "video-galeri",
     badge: "ARŞİV",
     title: "Video Arşivi",
-    sub: "Tüm söyleşi ve okuma videoları",
+    sub: "Tüm uygulama ve proje videoları",
     src: `https://www.youtube.com/embed/videoseries?list=${UPLOADS_PLAYLIST}&index=2`,
     live: false,
   },
@@ -63,7 +63,7 @@ VİDEOLAR
           rel="noreferrer"
           className="mm-live-link"
         >
-Mehmet Karakuş Kanalı ↗
+Aslan Dekorasyon Kanalı ↗
         </a>
       </div>
 

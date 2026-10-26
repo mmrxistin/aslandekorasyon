@@ -163,7 +163,7 @@ export default function SiteContentEditor({ initialContent }: Props) {
             </div>
             <div className="space-y-4">
               {list.length === 0 && (
-                <p className="text-sm text-slate-500">Henüz öğe yok. "Ekle" ile yeni öğe oluşturun.</p>
+                <p className="text-sm text-slate-500">Henüz öğe yok. &ldquo;Ekle&rdquo; ile yeni öğe oluşturun.</p>
               )}
               {list.map((row, idx) => (
                 <div key={idx} className="rounded-2xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-700 dark:bg-slate-900/50">

@@ -23,8 +23,8 @@ export default async function IcerikDetayPage({ params }: PageProps) {
   if (!item) notFound();
 
   const titles: Record<string, string> = {
-    cases: "Seçili Kitaplar",
-    services: "Türler",
+    cases: "Öne Çıkan Projeler",
+    services: "Hizmetler",
     news: "Duyurular",
   };
   const backHref: Record<string, string> = {

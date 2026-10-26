@@ -28,11 +28,11 @@ const geistMono = localFont({
 });
 export const metadata: Metadata = {
   title: {
-    template: "%s | Yazar Mehmet Karakuş",
-    default: "Yazar Mehmet Karakuş",
+    template: "%s | Aslan Dekorasyon",
+    default: "Aslan Dekorasyon · Alçı, Boya ve İnşaat İşleri",
   },
-  description: "Yazar Mehmet Karakuş · İşler · Hizmetler · Kültür",
-  keywords: ["Yazar Mehmet Karakuş", "Strateji", "Tasarım", "Prodüksiyon", "Medya"],
+  description: "Aslan Dekorasyon · Alçı, boya, alçıpan ve inşaat işleri · Tadilat ve renovasyon",
+  keywords: ["Aslan Dekorasyon", "Alçı", "Boya", "Badana", "İnşaat", "Tadilat", "Alçıpan"],
 };
 
 export default async function RootLayout({
@@ -84,7 +84,7 @@ export default async function RootLayout({
 function Footer() {
   return (
     <footer className="flex items-center justify-center w-full h-16 bg-gray-800 text-white">
-      <p className="text-sm">© {new Date().getFullYear()} Yazar Mehmet Karakuş</p>
+      <p className="text-sm">© {new Date().getFullYear()} Aslan Dekorasyon</p>
     </footer>
   );
 

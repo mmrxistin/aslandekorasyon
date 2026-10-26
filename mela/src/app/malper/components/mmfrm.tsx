@@ -49,13 +49,13 @@ const ContactForm: React.FC = () => {
         <div className="flex items-center gap-2 mb-6 border-b-2 border-[#bb1919] pb-3">
           <span className="w-3 h-6 bg-[#bb1919]"></span>
           <h2 className="text-2xl font-black text-zinc-900 dark:text-white uppercase tracking-tight m-0">
-Bana Yazın
+Bize Yazın
           </h2>
         </div>
 
         {submitted && (
           <Alert variant="success" className="rounded-none text-center font-semibold bg-emerald-50 border-emerald-300 text-emerald-800">
-Mektubunuz başarıyla gönderildi!
+Talebiniz başarıyla gönderildi!
           </Alert>
         )}
         {error && (
@@ -95,7 +95,7 @@ Adınız Soyadınız
 
           <Form.Group controlId="formMessage">
             <Form.Label className="font-bold text-xs uppercase tracking-wider text-zinc-700 dark:text-zinc-300">
-Mektubunuz
+Mesajınız
             </Form.Label>
             <Form.Control
               as="textarea"

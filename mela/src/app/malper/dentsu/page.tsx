@@ -11,46 +11,46 @@ import Link from "next/link";
 const services = [
   {
     no: "01",
-    title: "Roman",
-    desc: "Uzun soluklu anlatılar; tek bir hayatın içinden bütün bir dünyayı görme denemesi.",
+    title: "Alçı Sıva",
+    desc: "İç ve dış cephede pürüzsüz yüzey; alçı sıva, korniş ve tavan göbeği uygulamaları.",
   },
   {
     no: "02",
-    title: "Öykü",
-    desc: "Kısa metnin imkânıyla, bir anın bütün ağırlığını taşıyan hikâyeler.",
+    title: "Boya & Badana",
+    desc: "İç ve dış cephe boyama, silinebilir boya ve dekoratif duvar uygulamaları.",
   },
   {
     no: "03",
-    title: "Deneme",
-    desc: "Düşünmenin peşine düşen, gündelik olanın içinden geçen yazılar.",
+    title: "Alçıpan Tavan",
+    desc: "Asma tavan, gizli ışık kanalları ve alçıpan bölme sistemleri.",
   },
   {
     no: "04",
-    title: "Mektup & Günlük",
-    desc: "Yokluk, bekleyiş ve hafıza üzerine, birisine yazılmış samimi metinler.",
+    title: "Anahtar Teslim Tadilat",
+    desc: "Ev ve işyeri tadilatında yıkımdan ince işlere kadar tek elden çözüm.",
   },
   {
     no: "05",
-    title: "Eleştiri",
-    desc: "Kitapların arasında yürüyen, okuma ufkunu genişleten kritikler.",
+    title: "İnşaat İşleri",
+    desc: "Duvar örme, şap, beton ve ince inşaat işlerinde planlı uygulama.",
   },
   {
     no: "06",
-    title: "Söyleşi",
-    desc: "Yazarlarla, editörlerle ve okurlarla yapılan söyleşi ve buluşmalar.",
+    title: "Dekoratif Sıva",
+    desc: "Mikro beton, beton görünüm ve özel efektli duvar uygulamaları.",
   },
   {
     no: "07",
-    title: "Atölye",
-    desc: "Yazmaya yeni başlayanlarla metni kurmayı öğrenmenin atölyesi.",
+    title: "Dış Cephe",
+    desc: "Dış cephe boya, mantolama sonrası yüzey ve cephe onarım işleri.",
   },
   {
     no: "08",
-    title: "Editörlük",
-    desc: "Metinleri birlikte okumak, düzenlemek ve yayına hazırlamak.",
+    title: "Onarım & Bakım",
+    desc: "Çatlak onarımı, rutubet problemi, sökme-takma ve tamirat işleri.",
   },
 ];
-const marqueeWord = "KELİME — HAFIZA — SAYFA — ";
+const marqueeWord = "ALÇI — BOYA — İNŞAAT — ";
 
 export default function DentsuPage() {
   return (
@@ -89,29 +89,29 @@ export default function DentsuPage() {
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-10 py-5 bg-[#0a0a0a]/80 backdrop-blur">
         <div className="flex gap-6 md:gap-10 text-xs md:text-sm tracking-widest uppercase">
-          <a href="#isler" className="hover-line">Kitaplar</a>
-          <a href="#hizmetler" className="hover-line">Yazdıklarım</a>
-          <a href="#hakkinda" className="hover-line">Hakkımda</a>
+          <a href="#isler" className="hover-line">Projeler</a>
+          <a href="#hizmetler" className="hover-line">Hizmetler</a>
+          <a href="#hakkinda" className="hover-line">Hakkımızda</a>
           <a href="#iletisim" className="hover-line">İletişim</a>
         </div>
-        <div className="text-sm font-bold tracking-[0.3em] uppercase">Mehmet Karakuş</div>
+        <div className="text-sm font-bold tracking-[0.3em] uppercase">Aslan Dekorasyon</div>
       </nav>
 
       {/* HERO */}
       <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-10 pt-24">
         <div className="text-xs tracking-[0.4em] uppercase text-white/60 mb-6">
-          Sözün peşine düşen, yavaş yazan bir edebiyat atölyesi
+          Alçı, boya ve inşaat işlerinde uçtan uca çözüm
         </div>
         <h1 className="font-bold leading-[0.95] tracking-tight">
-          <span className="block text-5xl md:text-8xl lg:text-9xl">İnsanı ve</span>
+          <span className="block text-5xl md:text-8xl lg:text-9xl">Evinizi ve</span>
           <span className="block text-5xl md:text-8xl lg:text-9xl text-white/40">
-            şehri
+            iş yerinizi
           </span>
           <span className="block text-5xl md:text-8xl lg:text-9xl">
-            yeniden anlatan
+            yenileyen
           </span>
           <span className="block text-5xl md:text-8xl lg:text-9xl italic">
-            edebiyat<span className="text-red-600">.</span>
+            ustalar<span className="text-red-600">.</span>
           </span>
         </h1>
         <div className="mt-12 flex gap-4">
@@ -119,13 +119,13 @@ export default function DentsuPage() {
             href="#isler"
             className="px-8 py-4 border border-white/30 rounded-full text-sm tracking-widest uppercase hover:bg-white hover:text-black transition-colors"
           >
-Kitapları gör
+Projeleri gör
           </a>
           <a
             href="#iletisim"
             className="px-8 py-4 bg-red-600 rounded-full text-sm tracking-widest uppercase hover:bg-red-500 transition-colors"
           >
-Bana yaz
+Teklif al
           </a>
         </div>
       </section>
@@ -143,9 +143,9 @@ Bana yaz
 
       {/* LATEST BOOKS */}
       <section id="isler" className="px-6 md:px-10 py-24">
-        <h2 className="text-4xl md:text-6xl font-bold mb-16">Son Kitaplar</h2>
+        <h2 className="text-4xl md:text-6xl font-bold mb-16">Son Projeler</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {["Sessizliğin Alfabesi", "Sokağın Hafızası", "Kuşlar ve Kırık Saat", "Babanın Defteri"].map(
+          {["Alçı Sıva & Korniş", "İç Cephe Boya", "Anahtar Teslim Tadilat", "Alçıpan Asma Tavan"].map(
             (name, i) => (
               <div
                 key={name}
@@ -156,7 +156,7 @@ Bana yaz
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end justify-between">
                   <h3 className="text-2xl font-semibold">{name}</h3>
-                  <span className="text-sm text-white/50">Kitap</span>
+                  <span className="text-sm text-white/50">Proje</span>
                 </div>
               </div>
             )
@@ -166,7 +166,7 @@ Bana yaz
 
       {/* SERVICES */}
       <section id="hizmetler" className="px-6 md:px-10 py-24 border-t border-white/10">
-        <h2 className="text-4xl md:text-6xl font-bold mb-16">Yazdıklarım</h2>
+        <h2 className="text-4xl md:text-6xl font-bold mb-16">Hizmetler</h2>
         <div>
           {services.map((s) => (
             <div
@@ -186,9 +186,9 @@ Bana yaz
       {/* CTA */}
       <section id="iletisim" className="px-6 md:px-10 py-32 text-center">
         <h2 className="text-5xl md:text-8xl font-bold leading-tight">
-Hikâyeni
+Mekânınızı
           <br />
-          <span className="text-red-600">birlikte yazalım</span>
+          <span className="text-red-600">birlikte yenileyelim</span>
         </h2>
         <Link
           href="/"
@@ -203,11 +203,11 @@ Hikâyeni
         id="hakkinda"
         className="px-6 md:px-10 py-12 border-t border-white/10 flex flex-col md:flex-row justify-between gap-6 text-sm text-white/50"
       >
-        <div>© 2026 — El Hamdu Lillah ile yazıldı.</div>
+        <div>© {new Date().getFullYear()} — Aslan Dekorasyon. Tüm hakları saklıdır.</div>
         <div className="flex gap-8">
           <a href="#" className="hover:text-white">Instagram</a>
-          <a href="#" className="hover:text-white">X</a>
-          <a href="#" className="hover:text-white">LinkedIn</a>
+          <a href="#" className="hover:text-white">Facebook</a>
+          <a href="#" className="hover:text-white">WhatsApp</a>
         </div>
       </footer>
     </main>

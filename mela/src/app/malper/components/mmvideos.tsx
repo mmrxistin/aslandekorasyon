@@ -4,16 +4,20 @@
 // La ilahe ill Allah Muhammeden Rasulullah
 
 // Bismillahirrahmanirrahim
-// Söyleşi & Okuma Videoları Bileşeni
+// Uygulama & Proje Videoları Bileşeni
 "use client";
 
 import React from "react";
-
+// La îlahe îllAllah û vahdehû la şerîke leh, lehul-mulku ve lehul-hamdu
+// yuhyî ve yûmît 
+// ve Hûwe Hayyûn La Yamût 
+// biyedihil-hayr
+//  ve hüve alâ külli şey'in kadîr.
 const videos = [
-  { id: "1", title: "Söyleşi: Hafıza ve Yazmak", thumb: "https://img.youtube.com/vi/UCeHJLmZ75j/0.jpg", url: "#" },
-  { id: "2", title: "Kitaptan Okumalar: Sokağın Hafızası", thumb: "https://img.youtube.com/vi/UCeHJLmZ75j/1.jpg", url: "#" },
-  { id: "3", title: "Atölye Atölyesi: İlk Cümle", thumb: "https://img.youtube.com/vi/UCeHJLmZ75j/2.jpg", url: "#" },
-  { id: "4", title: "Kütüphane Günleri Sohbeti", thumb: "https://img.youtube.com/vi/UCeHJLmZ75j/3.jpg", url: "#" },
+  { id: "1", title: "Uygulama: Alçı Sıva", thumb: "/images/alci-siva.svg", url: "/malper/isler" },
+  { id: "2", title: "Proje: İç Cephe Boya", thumb: "/images/ic-cephe-boya.svg", url: "/malper/isler" },
+  { id: "3", title: "Proje: Anahtar Teslim Tadilat", thumb: "/images/tadilat.svg", url: "/malper/isler" },
+  { id: "4", title: "Uygulama: Alçıpan Asma Tavan", thumb: "/images/alcipan-tavan.svg", url: "/malper/isler" },
 ];
 
 export default function MmVideoGallery() {
@@ -23,9 +27,9 @@ export default function MmVideoGallery() {
         <div className="flex items-center justify-between border-b border-zinc-800 pb-4 mb-6">
           <h2 className="text-xl font-black uppercase tracking-wider flex items-center gap-2">
             <span className="w-2 h-6 bg-[#d90000]"></span>
-VİDEOLAR
+            PROJELER
           </h2>
-          <a href="#" className="text-xs font-bold hover:text-[#d90000] transition-colors">TÜMÜNÜ GÖR →</a>
+          <a href="/malper/isler" className="text-xs font-bold hover:text-[#d90000] transition-colors">TÜMÜNÜ GÖR →</a>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

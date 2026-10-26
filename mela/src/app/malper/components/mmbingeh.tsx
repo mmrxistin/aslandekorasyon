@@ -24,13 +24,13 @@ import React from "react";
 const Bingeh = () => (
   <footer className="bg-white text-[#18181b] border-t border-zinc-200 mt-16 font-sans">
     <div className="max-w-7xl mx-auto px-4 py-12">
-      {/* Yazar Footer Top */}
+      {/* Firma Footer Top */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center pb-8 mb-8 border-b border-zinc-200 gap-4">
         <div className="flex items-center gap-2">
-          <span className="text-3xl font-black tracking-tight">MEHMET <span className="text-[#ff4d00]">KARAKUŞ</span></span>
+          <span className="text-3xl font-black tracking-tight">ASLAN <span className="text-[#ff4d00]">DEKORASYON</span></span>
         </div>
         <p className="max-w-md text-sm text-zinc-500">
-          Roman, öykü ve denemeleriyle insanın ve şehrin hikâyesini yazan yazar.
+          Alçı, boya ve inşaat işlerinde keşiften teslime kadar anahtar teslim çözümler.
         </p>
       </div>
 
@@ -38,39 +38,39 @@ const Bingeh = () => (
         {/* Navigation Links Column 1 */}
         <div>
           <h5 className="inline-block text-sm font-bold uppercase tracking-wider text-[#18181b] border-b-2 border-[#ff4d00] pb-2 mb-4">
-            Yazar
+            Kurumsal
           </h5>
           <ul className="p-0 m-0 space-y-2.5 list-none text-sm text-zinc-600">
             <li><a href="/malper" className="transition-colors hover:text-[#ff4d00] hover:underline">Ana Sayfa</a></li>
-            <li><a href="/malper#work" className="transition-colors hover:text-[#ff4d00] hover:underline">Kitaplar</a></li>
+            <li><a href="/malper#work" className="transition-colors hover:text-[#ff4d00] hover:underline">Projeler</a></li>
             <li><a href="/malper#news" className="transition-colors hover:text-[#ff4d00] hover:underline">Duyurular</a></li>
-            <li><a href="/hakkimizda" className="transition-colors hover:text-[#ff4d00] hover:underline">Yazar Hakkında</a></li>
-            <li><a href="/iletisim" className="transition-colors hover:text-[#ff4d00] hover:underline">İletişim</a></li>
+            <li><a href="/malper/hakkinda" className="transition-colors hover:text-[#ff4d00] hover:underline">Hakkımızda</a></li>
+            <li><a href="/malper/iletisim" className="transition-colors hover:text-[#ff4d00] hover:underline">İletişim</a></li>
           </ul>
         </div>
 
         {/* Navigation Links Column 2 */}
         <div>
           <h5 className="inline-block text-sm font-bold uppercase tracking-wider text-[#18181b] border-b-2 border-[#ff4d00] pb-2 mb-4">
-            Kitaplar
+            Hizmetler
           </h5>
           <ul className="p-0 m-0 space-y-2.5 list-none text-sm text-zinc-600">
-            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Roman</a></li>
-            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Öykü</a></li>
-            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Deneme</a></li>
-            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Mektup & Günlük</a></li>
-            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Edebiyat Eleştirisi</a></li>
+            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Alçı & Sıva</a></li>
+            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Boya & Badana</a></li>
+            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Alçıpan & Asma Tavan</a></li>
+            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">Tadilat & Renovasyon</a></li>
+            <li><a href="/malper/hizmetler" className="transition-colors hover:text-[#ff4d00] hover:underline">İnşaat İşleri</a></li>
           </ul>
         </div>
 
         {/* Navigation Links Column 3 */}
         <div>
           <h5 className="inline-block text-sm font-bold uppercase tracking-wider text-[#18181b] border-b-2 border-[#ff4d00] pb-2 mb-4">
-            Atölye & Yasal
+            Kurumsal & Yasal
           </h5>
           <ul className="p-0 m-0 space-y-2.5 list-none text-sm text-zinc-600">
-            <li><a href="/malper#careers" className="transition-colors hover:text-[#ff4d00] hover:underline">Atölye</a></li>
-            <li><a href="/malper#culture" className="transition-colors hover:text-[#ff4d00] hover:underline">Manifesto</a></li>
+            <li><a href="/malper/kariyer" className="transition-colors hover:text-[#ff4d00] hover:underline">Referanslar</a></li>
+            <li><a href="/malper#culture" className="transition-colors hover:text-[#ff4d00] hover:underline">Çalışma Anlayışımız</a></li>
             <li><a href="/gizlilik" className="transition-colors hover:text-[#ff4d00] hover:underline">Gizlilik Politikası</a></li>
             <li><a href="/kullanim-sartlari" className="transition-colors hover:text-[#ff4d00] hover:underline">Kullanım Şartları</a></li>
             <li><a href="/kunye" className="transition-colors hover:text-[#ff4d00] hover:underline">Künye</a></li>
@@ -83,7 +83,7 @@ const Bingeh = () => (
             Bizi Takip Edin
           </h5>
           <p className="mb-4 text-xs leading-relaxed text-zinc-500">
-Yazıları ve duyuruları sosyal medyada takip edin.
+Projelerimizi ve duyuruları sosyal medyada takip edin.
           </p>
           <div className="flex gap-2 mb-6">
             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="flex size-8 items-center justify-center rounded-full bg-zinc-100 text-[#18181b] transition-colors hover:bg-[#ff4d00] hover:text-white">
@@ -107,10 +107,10 @@ Yazıları ve duyuruları sosyal medyada takip edin.
     <div className="border-t border-zinc-200 bg-[#fafafa] py-4 text-xs text-zinc-500">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-4 md:flex-row md:justify-between">
         <div>
-          © {new Date().getFullYear()} MEHMET KARAKUŞ. Tüm hakları saklıdır.         </div>
+          © {new Date().getFullYear()} ASLAN DEKORASYON. Tüm hakları saklıdır.         </div>
         <div className="flex gap-4">
           <a href="/gizlilik" className="transition-colors text-zinc-500 hover:text-[#ff4d00]">Gizlilik</a>
-          <a href="/iletisim" className="transition-colors text-zinc-500 hover:text-[#ff4d00]">İletişim</a>
+          <a href="/malper/iletisim" className="transition-colors text-zinc-500 hover:text-[#ff4d00]">İletişim</a>
           <a href="/kunye" className="transition-colors text-zinc-500 hover:text-[#ff4d00]">Künye</a>
         </div>
       </div>

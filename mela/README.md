@@ -10,7 +10,7 @@ LA İLAHE İLLALLAH
 
 - **Kullanıcı adı:** `MehmetKarakus`
 - **Şifre:** `mehmetkarakus`
-- **Görünen ad:** Yazar Mehmet Karakuş
+- **Görünen ad:** Aslan Dekorasyon
 
 ### Yerelde
 ```bash

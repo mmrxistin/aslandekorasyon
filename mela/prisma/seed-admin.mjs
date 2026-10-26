@@ -41,8 +41,8 @@ for (const file of [".env.local", ".env.production.local", ".env"]) {
 
 const ADMIN_USERNAME = "MehmetKarakus";
 const ADMIN_PASSWORD = "mehmetkarakus";
-const AUTHOR_DISPLAY_NAME = "Yazar Mehmet Karakuş";
-const AUTHOR_TITLE = "Yazar Mehmet Karakuş";
+const AUTHOR_DISPLAY_NAME = "Aslan Dekorasyon";
+const AUTHOR_TITLE = "Aslan Dekorasyon";
 
 const prisma = new PrismaClient();
 

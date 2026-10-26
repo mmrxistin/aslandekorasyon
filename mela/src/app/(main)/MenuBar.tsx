@@ -64,7 +64,7 @@ export default async function MenuBar({ className }: MenuBarProps) {
           </div>
         </div>
         <p className="mt-4 text-xs uppercase tracking-[0.2em] text-red-200">
-          Yazar Mehmet Karakuş · Yönetim
+          Aslan Dekorasyon · Yönetim
         </p>
       </div>
 

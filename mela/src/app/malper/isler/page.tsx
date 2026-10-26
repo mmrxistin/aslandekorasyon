@@ -5,7 +5,7 @@
 import React from "react";
 import ParvekirinaYek from "../components/parvekirin";
 
-export const metadata = { title: "Yazılar" };
+export const metadata = { title: "Projeler" };
 
 export default function IslerPage() {
   return (
@@ -13,13 +13,13 @@ export default function IslerPage() {
       <div className="mx-auto max-w-5xl">
         <header className="mb-8 border-b border-white/10 pb-8">
           <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">
-Yazılar
+Projeler
           </p>
           <h1 className="text-5xl font-black uppercase tracking-tight sm:text-7xl">
-Yazılar
+Projeler
           </h1>
           <p className="mt-4 max-w-2xl text-zinc-400">
-Burada yayınlanan denemeleri, öyküleri ve notları okuyabilirsiniz.
+Tamamladığımız alçı, boya, alçıpan ve tadilat işlerimizi buradan inceleyebilirsiniz.
           </p>
         </header>
 
