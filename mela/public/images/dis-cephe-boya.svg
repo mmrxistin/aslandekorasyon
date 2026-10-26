@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#0f0f11"/>
+  <rect x="60" y="150" width="1080" height="560" rx="12" fill="#2a2a30"/>
+  <rect x="60" y="150" width="1080" height="560" rx="12" fill="none" stroke="#ff4d00" stroke-width="8" opacity=".8"/>
+  <g fill="#ff4d00" opacity=".85">
+    <rect x="110" y="200" width="150" height="110" rx="6"/>
+    <rect x="290" y="200" width="150" height="110" rx="6"/>
+    <rect x="470" y="200" width="150" height="110" rx="6"/>
+  </g>
+  <g fill="#e9e5df" opacity=".75">
+    <rect x="650" y="200" width="150" height="110" rx="6"/>
+    <rect x="830" y="200" width="150" height="110" rx="6"/>
+    <rect x="1010" y="200" width="90" height="110" rx="6"/>
+    <rect x="110" y="350" width="150" height="110" rx="6"/>
+    <rect x="290" y="350" width="150" height="110" rx="6"/>
+    <rect x="470" y="350" width="150" height="110" rx="6"/>
+    <rect x="650" y="350" width="150" height="110" rx="6"/>
+    <rect x="830" y="350" width="150" height="110" rx="6"/>
+    <rect x="1010" y="350" width="90" height="110" rx="6"/>
+  </g>
+  <g fill="#ff4d00" opacity=".55">
+    <rect x="110" y="500" width="150" height="160" rx="6"/>
+    <rect x="290" y="500" width="150" height="160" rx="6"/>
+    <rect x="470" y="500" width="150" height="160" rx="6"/>
+    <rect x="650" y="500" width="150" height="160" rx="6"/>
+    <rect x="830" y="500" width="150" height="160" rx="6"/>
+    <rect x="1010" y="500" width="90" height="160" rx="6"/>
+  </g>
+  <g transform="translate(940 20)" fill="#ff4d00">
+    <rect x="0" y="40" width="150" height="110" rx="12"/>
+    <path d="M110 40 l28 -34 v-6 a12 12 0 0 0 -24 0 v6 z" fill="#ff4d00"/>
+    <rect x="20" y="80" width="90" height="12" rx="6" fill="#0f0f11" opacity=".5"/>
+  </g>
+  <text x="60" y="775" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ff4d00">DIŞ CEPHE BOYA</text>
+</svg>

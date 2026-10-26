@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#111113"/>
+  <rect x="80" y="120" width="1040" height="300" rx="10" fill="#e9e5df" opacity=".12"/>
+  <rect x="120" y="160" width="960" height="220" rx="8" fill="#f2efe9"/>
+  <rect x="190" y="210" width="360" height="120" rx="6" fill="#221f1f"/>
+  <rect x="650" y="210" width="360" height="120" rx="6" fill="#221f1f"/>
+  <rect x="150" y="380" width="900" height="14" rx="7" fill="#ff4d00"/>
+  <rect x="150" y="394" width="900" height="26" fill="#ff4d00" opacity=".35"/>
+  <rect x="80" y="470" width="1040" height="240" rx="10" fill="#26262b"/>
+  <rect x="80" y="470" width="1040" height="16" fill="#ff4d00" opacity=".8"/>
+  <g fill="#3d3d44">
+    <rect x="140" y="530" width="200" height="160" rx="6"/>
+    <rect x="390" y="530" width="200" height="160" rx="6"/>
+    <rect x="800" y="530" width="260" height="160" rx="6"/>
+  </g>
+  <rect x="640" y="530" width="120" height="160" rx="6" fill="#ff4d00" opacity=".55"/>
+  <text x="80" y="775" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ff4d00">ALÇIPAN ASMA TAVAN</text>
+</svg>

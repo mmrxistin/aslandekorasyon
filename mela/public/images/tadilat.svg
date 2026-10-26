@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#161618"/>
+  <rect x="70" y="80" width="1060" height="560" rx="20" fill="#232327"/>
+  <rect x="70" y="80" width="1060" height="26" rx="13" fill="#ff4d00"/>
+  <path d="M120 640 L120 400 L320 260 L520 400 L520 640 Z" fill="#34343a"/>
+  <path d="M170 640 L170 430 L320 330 L470 430 L470 640 Z" fill="#4a4a52"/>
+  <rect x="580" y="380" width="480" height="260" rx="10" fill="#3b3b42"/>
+  <rect x="600" y="400" width="200" height="220" rx="6" fill="#efece6" opacity=".9"/>
+  <rect x="830" y="400" width="210" height="105" rx="6" fill="#ff4d00" opacity=".85"/>
+  <rect x="830" y="520" width="210" height="100" rx="6" fill="#c9c2b7"/>
+  <g transform="translate(860 180)" stroke="#ff4d00" stroke-width="14" stroke-linecap="round" fill="none">
+    <path d="M0 120 L120 0"/>
+    <path d="M120 0 a34 34 0 1 1 48 48 L168 48 L170 90"/>
+  </g>
+  <rect x="700" y="130" width="120" height="120" rx="10" fill="#ff4d00" opacity=".25"/>
+  <text x="70" y="755" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ff4d00">ANAHTAR TESLİM TADİLAT</text>
+</svg>
