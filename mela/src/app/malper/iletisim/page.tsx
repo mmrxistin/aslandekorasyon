@@ -4,7 +4,8 @@
 // La ilahe ill Allah Muhammeden Rasulullah
 "use client";
 import React, { useState } from "react";
-import { AGENCY } from "../ajans-veri";
+import { AGENCY, TEL_URL, WHATSAPP_URL } from "../ajans-veri";
+import { WhatsAppIcon, PhoneIcon } from "../components/iletisim-butonlari";
 
 export default function IletisimPage() {
   const [sent, setSent] = useState(false);
@@ -105,7 +106,25 @@ Teklif isteyin →
             </div>
             <div>
               <h3 className="mb-4 text-xs font-black uppercase tracking-[0.25em] text-zinc-500">Telefon</h3>
-              <p className="text-2xl font-black sm:text-3xl">{AGENCY.phone}</p>
+              <a href={TEL_URL} className="text-2xl font-black text-white no-underline transition-colors hover:text-[#ff4d00] sm:text-3xl">
+                {AGENCY.phone}
+              </a>
+              <div className="mt-5 flex gap-3">
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-2.5 text-xs font-bold uppercase tracking-[0.14em] text-white no-underline transition-all hover:brightness-110"
+                >
+                  <WhatsAppIcon className="h-4 w-4" /> WhatsApp
+                </a>
+                <a
+                  href={TEL_URL}
+                  className="inline-flex items-center gap-2 rounded-full bg-[#ff4d00] px-5 py-2.5 text-xs font-bold uppercase tracking-[0.14em] text-white no-underline transition-all hover:brightness-110"
+                >
+                  <PhoneIcon className="h-4 w-4" /> Ara
+                </a>
+              </div>
             </div>
             <div>
               <h3 className="mb-4 text-xs font-black uppercase tracking-[0.25em] text-zinc-500">Adres</h3>
@@ -117,7 +136,8 @@ Teklif isteyin →
                 {["Instagram", "Facebook", "WhatsApp", "YouTube"].map((s) => (
                   <a
                     key={s}
-                    href="#"
+                    href={s === "WhatsApp" ? WHATSAPP_URL : "#"}
+                    {...(s === "WhatsApp" ? { target: "_blank", rel: "noreferrer" } : {})}
                     className="rounded-full border border-white/20 px-5 py-2.5 text-xs font-bold uppercase tracking-[0.14em] text-zinc-300 no-underline transition-all hover:border-[#ff4d00] hover:text-[#ff4d00]"
                   >
                     {s}

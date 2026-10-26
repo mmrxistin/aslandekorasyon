@@ -3,10 +3,11 @@
 // Esselatu vesselamu ala rasulina Muhammedin .
 // La ilahe ill Allah Muhammeden Rasulullah
 
-import { MessageCircle, Send } from "lucide-react";
+import { MessageCircle, Phone, Send } from "lucide-react";
 
-const PHONE_NUMBER = "+905513417039";
+const PHONE_NUMBER = "+905330203540";
 const WHATSAPP_URL = `https://wa.me/${PHONE_NUMBER.replace("+", "")}`;
+const TEL_URL = `tel:${PHONE_NUMBER}`;
 const TELEGRAM_URL = `https://t.me/${PHONE_NUMBER}`;
 
 export default function AdminFooter() {
@@ -21,6 +22,13 @@ export default function AdminFooter() {
           className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-emerald-600 text-white transition hover:bg-emerald-700"
         >
           <MessageCircle className="h-4 w-4" />
+        </a>
+        <a
+          href={TEL_URL}
+          aria-label="Telefon ile ara"
+          className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-orange-600 text-white transition hover:bg-orange-700"
+        >
+          <Phone className="h-4 w-4" />
         </a>
         <a
           href={TELEGRAM_URL}

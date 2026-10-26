@@ -4,7 +4,7 @@
 import React from "react";
 import Link from "next/link";
 import { AGENCY } from "./ajans-veri";
-import HeroUnderwaterScene from "./components/hero-underwater";
+
 import ParvekirinaYek from "./components/parvekirin";
 
 const MARQUEE = "ALÇI · BOYA · İNŞAAT — ASLAN DEKORASYON — ";
@@ -29,13 +29,7 @@ export default function MalperClient({ stats: STATS, cases: CASES, services: SER
         .red-grid { animation: red-grid-pulse 5s ease-in-out infinite; }
       `}</style>
 
-      {/* ======== HERO — SU ALTI 360 SAHNE (metinsiz) ======== */}
-      <section
-        className="relative flex min-h-[92vh] flex-col justify-center overflow-hidden"
-        aria-label="Su alti 360 sahnesi"
-      >
-        <HeroUnderwaterScene />
-      </section>
+
 
       {/* ======== MARQUEE ======== */}
       <section className="border-y border-white/10 py-10">

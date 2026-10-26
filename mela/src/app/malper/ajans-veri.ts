@@ -8,9 +8,14 @@ export const AGENCY = {
   name: "Aslan Dekorasyon",
   tagline: "Alçı · Boya · İnşaat İşleri",
   email: "info@aslandekorasyon.com",
-  phone: "+90 532 000 00 00",
+  phone: "+90 533 020 35 40",
+  phoneRaw: "905330203540",
+  whatsapp: "905330203540",
   address: "İstanbul",
 };
+
+export const WHATSAPP_URL = `https://wa.me/${AGENCY.whatsapp}`;
+export const TEL_URL = `tel:+${AGENCY.phoneRaw}`;
 export const STATS = [
   { n: "18", l: "Yıllık Tecrübe" },
   { n: "750+", l: "Tamamlanan Proje" },

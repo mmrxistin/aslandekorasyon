@@ -4,7 +4,8 @@
 // La ilahe ill Allah Muhammeden Rasulullah
 import React from "react";
 import Link from "next/link";
-import { NAV_LINKS, AGENCY } from "../ajans-veri";
+import { NAV_LINKS, AGENCY, WHATSAPP_URL, TEL_URL } from "../ajans-veri";
+import { IletisimIkonlari } from "./iletisim-butonlari";
 
 export default function RedFooter() {
   return (
@@ -45,11 +46,14 @@ ASLAN DEKORASYON
             <h4 className="mb-5 text-xs font-black uppercase tracking-[0.2em] text-white/40">İletişim</h4>
             <ul className="space-y-3 text-sm text-white/70">
               <li><a href={`mailto:${AGENCY.email}`} className="no-underline transition-colors hover:text-[#ff4d00]">{AGENCY.email}</a></li>
-              <li>{AGENCY.phone}</li>
+              <li>
+                <a href={TEL_URL} className="no-underline transition-colors hover:text-[#ff4d00]">{AGENCY.phone}</a>
+              </li>
               <li>{AGENCY.address}</li>
             </ul>
-            <div className="mt-6 flex gap-3">
-              {["IG", "FB", "WA", "YT"].map((s) => (
+            <IletisimIkonlari className="mt-6" />
+            <div className="mt-4 flex gap-3">
+              {["IG", "FB", "YT"].map((s) => (
                 <a
                   key={s}
                   href="#"

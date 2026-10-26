@@ -16,6 +16,7 @@ import React from "react";
 import RedNavbar from "./components/red-nav";
 import RedFooter from "./components/red-footer";
 import DestpekLoginListener from "./components/destpek-login";
+import { YukzenIletisimButonlari } from "./components/iletisim-butonlari";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -24,6 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <RedNavbar />
       <div className="pt-20">{children}</div>
       <RedFooter />
+      <YukzenIletisimButonlari />
     </div>
   );
 }
