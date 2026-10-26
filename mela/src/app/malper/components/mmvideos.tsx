@@ -8,7 +8,7 @@
 "use client";
 
 import React from "react";
-// La îlahe îllAllah û vahdehû la şerîke leh, lehul-mulku ve lehul-hamdu
+// La îlahe îllAllah û vahdehû la şerîke leh, lehul-mulku ve lehul-hamdu.
 // yuhyî ve yûmît 
 // ve Hûwe Hayyûn La Yamût 
 // biyedihil-hayr
