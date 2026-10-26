@@ -20,7 +20,7 @@ const videos = [
   { id: "4", title: "Uygulama: Alçıpan Asma Tavan", thumb: "/images/alcipan-tavan.svg", url: "/malper/isler" },
 ];
 
-
+//Subhan Allah î Azîm ve BîHamdihî, Subhan Allah î Azîm ve BîHamdihî, Subhan Allah î Azîm ve BîHamdihî
 
 export default function MmVideoGallery() {
   return (

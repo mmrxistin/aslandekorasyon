@@ -20,6 +20,7 @@ const allAuthors = [
   { name: "İnşaat", initial: "İ", color: "bg-zinc-800" },
 ];
 
+//Subhan Allah î Azîm ve BîHamdihî, Subhan Allah î Azîm ve BîHamdihî, Subhan Allah î Azîm ve BîHamdihî
 export default function MmAuthorGrid() {
   return (
     <section className="py-8 bg-zinc-50 border-t border-zinc-200 px-4 sm:px-6">
